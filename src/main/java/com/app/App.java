@@ -1,5 +1,8 @@
 package com.app;
 
+import com.app.dao.PersonDao;
+import com.app.dao.PersonDaoImpl;
+
 /**
  * Hello world!
  *
@@ -8,6 +11,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        PersonDao personDao = new PersonDaoImpl();
     }
 }
